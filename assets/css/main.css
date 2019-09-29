@@ -3124,7 +3124,7 @@ input, select, textarea {
 		background-color: #f5f6f7;
 		font-size: 0.9em;
 		position: relative;
-		width: 15em;
+		width: 20em;
 	}
 
 		#sidebar h2 {
@@ -3134,7 +3134,7 @@ input, select, textarea {
 		#sidebar > .inner {
 			padding: 2.22222em 2.22222em 2.44444em 2.22222em ;
 			position: relative;
-			width: 26em;
+			width: 20em;
 		}
 
 			#sidebar > .inner > * {
@@ -3171,7 +3171,7 @@ input, select, textarea {
 			border: 0;
 			display: block;
 			height: 7.5em;
-			left: 26em;
+			left: 20em;
 			line-height: 7.5em;
 			outline: 0;
 			overflow: hidden;
@@ -3215,12 +3215,12 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			#sidebar {
-				width: 24em;
+				width: 20em;
 			}
 
 				#sidebar > .inner {
 					padding: 1.66667em 1.66667em 1.33333em 1.66667em ;
-					width: 24em;
+					width: 20em;
 				}
 
 					#sidebar > .inner > .alt {
@@ -3231,7 +3231,7 @@ input, select, textarea {
 
 				#sidebar .toggle {
 					height: 6.25em;
-					left: 24em;
+					left: 20em;
 					line-height: 6.25em;
 					text-indent: 5em;
 					width: 5em;
@@ -3242,7 +3242,7 @@ input, select, textarea {
 					}
 
 				#sidebar.inactive {
-					margin-left: -24em;
+					margin-left: -20em;
 				}
 
 		}
