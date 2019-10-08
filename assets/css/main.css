@@ -3391,6 +3391,8 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
+		background-size:contain;
+		background-repeat:no-repeat;
 	}
 
 		#banner h2 {
@@ -3407,6 +3409,8 @@ input, select, textarea {
 			-ms-flex-shrink: 1;
 			flex-shrink: 1;
 			width: 50%;
+			background-size:contain;
+			background-repeat:no-repeat;
 		}
 
 		#banner .image {
@@ -3417,6 +3421,8 @@ input, select, textarea {
 			-moz-flex-shrink: 0;
 			-webkit-flex-shrink: 0;
 			-ms-flex-shrink: 0;
+			background-size:contain;
+			background-repeat:no-repeat;
 			flex-shrink: 0;
 			display: block;
 			margin: 0 0 2em 4em;
@@ -3425,10 +3431,12 @@ input, select, textarea {
 
 			#banner .image img {
 				height: 100%;
-				-moz-object-fit: cover;
-				-webkit-object-fit: cover;
-				-ms-object-fit: cover;
-				object-fit: cover;
+				-moz-object-fit: contain;
+				-webkit-object-fit: contain;
+				-ms-object-fit: contain;
+				background-repeat: no-repeat;
+				background-size:contain;
+				object-fit: contain;
 				-moz-object-position: center;
 				-webkit-object-position: center;
 				-ms-object-position: center;
@@ -3442,7 +3450,9 @@ input, select, textarea {
 				-moz-flex-direction: column-reverse;
 				-webkit-flex-direction: column-reverse;
 				-ms-flex-direction: column-reverse;
-				flex-direction: column-reverse;
+				flex-direction: column-reverse;				
+				background-size:contain;
+				background-repeat:no-repeat;
 			}
 
 				#banner h1 br {
@@ -3456,7 +3466,9 @@ input, select, textarea {
 					flex-grow: 0;
 					-moz-flex-shrink: 0;
 					-webkit-flex-shrink: 0;
-					-ms-flex-shrink: 0;
+					-ms-flex-shrink: 0;					
+					background-size:contain;
+					background-repeat:no-repeat;
 					flex-shrink: 0;
 					width: 100%;
 				}
@@ -3471,7 +3483,9 @@ input, select, textarea {
 					-ms-flex-shrink: 0;
 					flex-shrink: 0;
 					margin: 0 0 4em 0;
-					height: 25em;
+					height: 25em;					
+					background-size:contain;
+					background-repeat:no-repeat;
 					max-height: 50vh;
 					min-height: 18em;
 					width: 100%;
@@ -3482,7 +3496,9 @@ input, select, textarea {
 		@media screen and (orientation: portrait) and (max-width: 480px) {
 
 			#banner .image {
-				max-height: 35vh;
+				max-height: 35vh;				
+				background-size:contain;
+				background-repeat:no-repeat;
 			}
 
 		}

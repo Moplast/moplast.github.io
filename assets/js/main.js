@@ -64,7 +64,7 @@
 					// Set background.
 						$this
 							.css('background-image', 'url("' + $img.attr('src') + '")')
-							.css('background-size', $img.css('object-fit') ? $img.css('object-fit') : 'cover')
+							.css('background-size', $img.css('object-fit') ? $img.css('object-fit') : 'contain')
 							.css('background-position', $img.css('object-position') ? $img.css('object-position') : 'center');
 
 				});
