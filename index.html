@@ -103,7 +103,7 @@
 										<h2>1-speaker samples</h2>
 									</header>
 									<div class="posts">
-										<article>s
+										<article>
 											<table cellspacing="50" style="width: 50%">
 												<thead>
 													<tr>
@@ -351,58 +351,33 @@
 									</header>
 									<div class="posts">
 										<article>
-											<h3>....</h3>
 											<table cellspacing="50" style="width: 50%">
 												<thead>
 													<tr>
-														<th> Mixture (1st channel)</th>
-														<th> reverberant clean </th>
-														<th> audio-only</th>
-														<th> audio-visual</th>
-														<th> multi-modal</th>
+														<th> Unprocessed Mixture</th>
+														<th> Estimated speaker 1</th>
+														<th> Estimated speaker 2</th>
 													</tr>
 												</thead>
 												<tbody>
 													<tr style="border-top:1px solid black">
-														<td><audio controls class="audio-player" preload="metadata" style="width:180px;">
-														  <source src="audio/2spk/mix/2-17_1.wav" ></audio></td>
-														<td><audio controls class="audio-player" preload="metadata" style="width:180px;">
-														  <source src="audio/2spk/clean/2-17_1.wav" ></audio></td>
-														<td><audio controls class="audio-player" preload="metadata" style="width:180px;">
-														  <source src="audio/2spk/audioonly/2-17__-1.45.wav" ></audio></td>
-														<td><audio controls class="audio-player" preload="metadata" style="width:180px;">
-														  <source src="audio/2spk/audiovisual/2-17__7.20.wav" ></audio></td>
-														<td><audio controls class="audio-player" preload="metadata" style="width:180px;">
-														  <source src="audio/2spk/multimodal/2-17__7.31.wav" ></audio></td>
+														<td><video id="mixture_video" width="380" controls>
+														  <source src="video/mixture.mp4" ></video></td>
+														<td><video id="spk_left_video" width="380" controls>
+														  <source src="video/spk_left.mp4" ></video></td>
+														<td><video id="spk_right_video" width="380" controls>
+														  <source src="video/spk_right.mp4" ></video></td>
 													</tr>
+													
 													<tr style="border-top:1px solid black">
-														<td><audio controls class="audio-player" preload="metadata" style="width:180px;">
-														  <source src="audio/2spk/mix/2-17_1.wav" ></audio></td>
-														<td><audio controls class="audio-player" preload="metadata" style="width:180px;">
-														  <source src="audio/2spk/clean/2-17_1.wav" ></audio></td>
-														<td><audio controls class="audio-player" preload="metadata" style="width:180px;">
-														  <source src="audio/2spk/audioonly/2-17__-1.45.wav" ></audio></td>
-														<td><audio controls class="audio-player" preload="metadata" style="width:180px;">
-														  <source src="audio/2spk/audiovisual/2-17__7.20.wav" ></audio></td>
-														<td><audio controls class="audio-player" preload="metadata" style="width:180px;">
-														  <source src="audio/2spk/multimodal/2-17__7.31.wav" ></audio></td>
+														<td><img id="mixture_spec" width="380" src="video/mixture_spec.png"></td>
+														<td><img id="spk_left_spec" width="380" src="video/spk_left_spec.png"></td>
+														<td><img id="spk_right_spec" width="380" src="video/spk_right_spec.png"></td>
 													</tr>
-
-													<tr style="border-top:1px solid black">
-														<td><audio controls class="audio-player" preload="metadata" style="width:180px;">
-														  <source src="audio/2spk/mix/2-17_1.wav" ></audio></td>
-														<td><audio controls class="audio-player" preload="metadata" style="width:180px;">
-														  <source src="audio/2spk/clean/2-17_1.wav" ></audio></td>
-														<td><audio controls class="audio-player" preload="metadata" style="width:180px;">
-														  <source src="audio/2spk/audioonly/2-17__-1.45.wav" ></audio></td>
-														<td><audio controls class="audio-player" preload="metadata" style="width:180px;">
-														  <source src="audio/2spk/audiovisual/2-17__7.20.wav" ></audio></td>
-														<td><audio controls class="audio-player" preload="metadata" style="width:180px;">
-														  <source src="audio/2spk/multimodal/2-17__7.31.wav" ></audio></td>
-													</tr>
+													
+													
 												</tbody>
 											</table>
-											<p>.....</p>
 											<!--<ul class="actions">
 												<li><a href="#" class="button">More</a></li>
 											</ul>-->
